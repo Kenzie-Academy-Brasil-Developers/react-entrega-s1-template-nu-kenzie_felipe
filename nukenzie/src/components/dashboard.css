@@ -1,55 +1,76 @@
 .container {
-    width: 185vw;
-    height: 155vh;
+    width: 100vw;
+    height: 100vh;
     margin: 0px;
-    position: fixed;
-    max-width: 137%;
-    max-height: 113%;
+    max-width: 100%;
+    max-height: 100%;
     background-color: white;
 }
 
 .title-nu {
     position: relative;
-    left: 135px;
-    top: 22px;
+    top: 15px;
+    left: 15px;
     color:var(--color-button);
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+
+}
+
+.titles-dash {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30vw;
+    height: 9vh;
 }
 
 
 .title-kenzie {
     color: #212529;
-    position: relative; 
-    top: -21px;
-    left: 180px;
+    top: -12px;
+    position: relative;
+    left: 24px;
     font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    top: 15px;
 }
 
 .logout {
     position: relative;
-    left: 350px;
-    top: -68px;
-    background-color: #E9ECEF;
+    left: 240px;
+    bottom: 50px;
+    max-width: 30%;
+    max-height: 100%;
+    width: 25vw;
+    height: 4vh;
+    background-color: rgba(233, 236, 239, 1);
     font-family: 'Nunito';
     font-size: 14px;
     color: black;
+    border: 1.4px solid #E9ECEF;
+border-radius: 8px;
 }
 
 .header {
-    box-shadow: 0px 4px 32px -12px #00000040;
-    height: 7vh;
-    max-height: 100%;
+    background: #F8F9FA;
+box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    height: 100vh;
+    max-height: 7%;
     max-width: 100%;
-    width: 243vw;
-    position: relative;
-    top: -15px;
+    width: 100vw;
+
 }
 
 .description {
     position: relative;
-    left: 16px;
+    left: 20px;
     color: #212529;    width: 30px;
     height: 30px;
+    top: 25px;
     font-size: 12px;
     font-family: 'Inter';
     font-style: normal;
@@ -57,30 +78,35 @@
 
 
 form {
-    width: 314px;
-    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 93vw;
+    height: 35vh;
     border: 1px solid #E9ECEF;
     position: relative;
-    top: 10px;
-    left: 44px;
+    top: 15px;
+    left: 5px;
     border-radius: 4px;
 }
 
 .form {
-    position: relative;
+    
     left: 70px;
 }
 
 .input {
     border: 2px solid #F8F9FA;
-    height: 52.80000305175781px;
-width: 260px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 7vh;
+width: 82vw;
 border-radius: 8px;
 padding: 0px 16px 0px 16px;
 background: #F8F9FA;
 border-radius: 8px;
 position: relative;
-left: 5px;
+left: 17px;
+top: 20px;
 color: black;
 
 }
@@ -90,8 +116,8 @@ color: black;
     font-size: 12px;
     font-family: 'Inter';
     position: relative;
-    left: 10px;
-    top: -10px;
+    left: 15px;
+    top: 26px;
 }
 
 .value {
@@ -99,15 +125,19 @@ color: black;
     font-family: 'Inter';
     color: #212529;
     position: relative;
-    left: 10px;
+    left: 15px;
+    top: 40px;
 }
 
 .input-value {
+    position: relative;
+    left: 13px;
+    top: 50px;
     border: 2px solid #F8F9FA;
-    height: 48px;
-width: 128px;
-left: 0px;
-top: 31px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 5vh;
+width: 45vw;
 border-radius: 8px;
 padding: 0px 16px 0px 16px;
 justify-content: space-between;
@@ -120,16 +150,19 @@ color: black;
 .RS{
     color: black;
     position: relative;
-    bottom: 53px;
-    left: 130px;
+    left: 120px;
+    top: 18px;
+  
+   
     width: 30px;
 }
 
 .type-name {
     color: #212529;
     position: relative;
-    left: 200px;
-    bottom: 145px;
+    left: 190px;
+    bottom: 36px;
+
     font-size: 12px;
     width: 78px;
 }
@@ -137,12 +170,16 @@ color: black;
 
 select {
     position: relative;
-    left: 205px;
-    bottom: 130px;
+    left: 185px;
+    bottom: 20px;
     background: #F8F9FA;
     border: 2px solid #F8F9FA;
     border-radius: 8px;
     color: black;
+    max-width: 100%;
+    max-height: 100%;
+    width: 30vw;
+    height: 3vh;
 }
 
 option {
@@ -150,69 +187,82 @@ option {
 }
 
 .set-value {
-    position: relative;
-    left: 69px;
-    bottom: 60px;
+    
+
     background-color: #FD377E;
     color: white;
     border: 2px solid #FD377E;
-    width: 250px;
+    border-radius: 8px;
+    max-width: 69%;
+    max-height: 100%;
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+    bottom: 70px;
+    left: 25px;
 }
 
 
 .list{
     width: 20rem;
-    position: relative;
-    left: 80px;
+ 
 }
 
 .list-total {
     border: 2px solid #E9ECEF;
-    width: 315px;
+    width: 93vw;
     position: relative;
-    left: 40px;
+    left: 5px;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    height: 10vh;
+    max-width: 272%;
+    
+    max-height: 100%;
 }
 
 .value-total {
     color: #212529;
     position: relative;
-    left: 10px;
+    top: 20px;
+    left: 15px;
+    
+   
     font-family: 'Inter', sans-serif;
     font-family: 'Nunito', sans-serif;    font-size: 16px;
 }
 .money {
-    position: relative;
-    left: 253px;
     width: 55px;
-    bottom: 39px;
+  position: relative;
     color: #FD377E;
-    
-
+    left: 230px;
 }
 
 .Ref {
     color: black;
     position: relative;
-    left: 8px;
+    
     font-size: 12px;
-    bottom: 50px;
+    top: 10px;
+    left: 15px;
 
 }
 
 
 h5 {
     position: relative;
-    left: 40px;
+    left: 18px;
         color: #212529;
     font-size: 16px;
-    bottom: 24px;
+    top: 20px;
+    
 }
 
 
 .click-title {
     color: black;
     color: black;
-    position: relative;
+    
     left: 40px;
     bottom: 20px;
 }
@@ -221,7 +271,7 @@ h5 {
     font-size: 12px;
     font-family: 'Nunito';
     font-style: normal;
-    position: relative;
+    
     left: 36px;
     bottom: 43px;
 }
@@ -232,7 +282,7 @@ h5 {
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    position: relative;
+    
     left: 34px;
     bottom: 30px;
 }
@@ -244,7 +294,7 @@ h5 {
 
 .trash-btn {
     background-color: #E9ECEF;
-    position: relative;
+    
     left: 40px;
     height: 20px;
     width: 28px;
@@ -255,8 +305,10 @@ h5 {
 
 .set-click {
     position: relative;
-    right: 27px;
-    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
     height: 150px;
   
 }
@@ -267,7 +319,8 @@ h5 {
     color: #343A40;
     font-size: 22px;
     position: relative;
-    left: 48px;
+    left: 18px;
+    top: 40px;
 }
 
 
@@ -277,7 +330,7 @@ h5 {
 
 ul {
     width: 356px;
-    position: relative;
+    
     left: 29px;
     display: flex;
     flex-direction: column;
@@ -287,8 +340,13 @@ ul {
 }
 
 .list-scroll{
+    position: relative;
+    top: 40px;
+    left: 20px;
     overflow-y: scroll;
     max-height: 264px;
+    max-width: 249%;
+    width: 104vw;
  }
 
 
@@ -301,883 +359,150 @@ ul {
     display: flex;
     flex-direction: column;
     border-left: 7px solid #03B898;
-    position: relative;
+    
     left: -30px;
 
  }
 
  .resolved-background {
     background-color: #FFFFFF;
-    height: 101vh;
-    width: 135vw;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
  }
 
 
-
-
-
-/* FAZENDO GANBIARRA E NAO BOAS PRÁTICAS COM O MEDIA SCREEN PORQUE NÃO INICIEI O PROJETO COM VW VH  */
-
-
-
-@media (min-width:375px) {
-    .header {
-        position: relative;
-        left: 35px !important;
-        top: -18px;
-    }
-    .logout {
-        position: relative;
-        left: 400px;
-    }
-
-    .form {
-        position: relative;
-        left: 130px;
-    }
-
-    .list {
-        position: relative;
-        left: 130px;
-    }
-}
-
-
-@media (min-width:425px){
-    .header {
-        position: relative;
-        left: 60px !important;
-    }
-    .logout {
-        position: relative;
-        left: 420px;
-    }
-
-    .form {
-        position: relative;
-        left: 170px;
-    }
-
-    .list {
-        position: relative;
-        left: 170px;
-    }
-}
-
-
-@media (min-width:500px){
-    .header {
-        position: relative;
-        left: 100px !important;
-    }
-    .logout {
-        position: relative;
-        left: 520px;
-    }
-
-    form {
-        position: relative;
-        left: 40px;
-        width: 95vw !important;
-    }
-
-    .list {
-        position: relative;
-        left: 235px;
-        width: 441px;
-        height: 389px;
-    }
-
-    .set-value {
-        position: relative;
-    left: 60px;
-    bottom: 60px;
-    background-color: #FD377E;
-    color: white;
-    border: 2px solid #FD377E;
-    width: 450px;
-    }
-
+@media (min-width:900px) {
     .input {
-        width: 400px;
-        position: relative;
-        left: 13px;
-        bottom: 15px;
+        max-width: 100%;
+        width: 35vw;
     }
-
-    select{
-        position: relative;
-        left: 200px;
-        bottom: 120px;
-        background: #F8F9FA;
-        border: 2px solid #F8F9FA;
-        border-radius: 8px;
-        color: black;
-        width: 250px;
+    select {
+        max-width: 100%;
+        width: 15vw;
     }
-    .type-name {
-        color: #212529;
-        position: relative;
-        left: 200px;
-        bottom: 145px;
-        font-size: 12px;
-        width: 78px;
+    .input-value {
+        max-width: 100%;
+        width: 15vw;
     }
-}
-
-
-@media (min-width:680px){
-    .header {
-        position: relative;
-        left: 200px !important;
-    }
-    .logout {
-        position: relative;
-        left: 720px;
-    }
-
-    form {
-        position: relative;
-        left: 140px;
-        width: 95vw !important;
-    }
-
-    .list {
-        position: relative;
-        left: 312px;
-        width: 731px;
-        height: 389px;
-    }
-
     .set-value {
-        position: relative;
-    left: 150px;
-    bottom: 60px;
-    background-color: #FD377E;
-    color: white;
-    border: 2px solid #FD377E;
-    width: 700px;
+        width: 89vw;
+        max-width: 34%;
     }
 
-    .input {
-        width: 650px;
+    .logout {
+        width: 10vw;
         position: relative;
-        left: 13px;
-        bottom: 15px;
+        left: 800px;
     }
-
-    select{
-        position: relative;
-        left: 200px;
-        bottom: 120px;
-        background: #F8F9FA;
-        border: 2px solid #F8F9FA;
-        border-radius: 8px;
-        color: black;
-        width: 450px;
-    }
-    .type-name {
-        color: #212529;
-        position: relative;
-        left: 200px;
-        bottom: 145px;
-        font-size: 12px;
-        width: 78px;
-    }
-
-
-    .list-total {
-        border: 2px solid #E9ECEF;
-        width: 615px;
-        position: relative;
-        left: 40px;
+    form {
+        max-width: 100%;
+        max-height: 100%;
+        width: 40vw;
     }
 
     .title-before {
-        color: #343A40;
-        font-size: 22px;
         position: relative;
-        left: 108px;
-        width: 900px;
-    }
-
-    ul > li {
-        display: flex;
-        flex-direction: column;
-        border-left: 7px solid #03B898;
-        position: relative;
-        left: -30px;
-        width: 300px;
-    }
-    .list-scroll {
-        overflow-y: scroll;
-        max-height: 230px;
-        width: 600px;
-    }
-}
-
-
-@media (min-width:1000px) {
-    .container{
-     width: 199.237443vh;
-     height: 104vh;
-    } 
-
-    .title-nu {
-     position: relative;
-     left: 230px;
-     width: 150px;
+        left: 450px;
+        top: -400px;
+        width: 50vw;
+        max-width: 150%;
 
     }
 
-    .title-kenzie{
-     position: relative;
-     left: 270px;
-     width: 150px;
-    }
-
-    .logout {
-     position: relative;
-     left: 1050px;
-    }
-
-    form {
-     position: relative;
-     left: 250px;
-     top: 33px;
-    width: 500px !important;
-    }
-
-    .list-total {
-     position: relative;
-     left: 110px;
-     top: 20px;
-     width: 500px;
+    .resolved-response {
+        max-width: 100%;
+        max-height: 10%;
+        width: 100vw;
+        height: 100vh;
     }
 
     h5 {
-     position: relative;
-     bottom: 520px;
-     left: 650px;
-     width: 150px;
-    }
-
-    .title-before {
-     position: relative;
-     bottom: 500px;
-     left: 615px;
-     width: 600px;
-    }
-    ul {
-     position: relative;
-     top: -500px;
-     left: 640px;
-     width: 560px;
-     height: 87px;
-    }
-
-    .list-scroll{
-        max-height: 600px !important;
-        overflow-y: auto;
-        height: 800px;
-    }
-
-    .header{
-     position: relative;
-     left: 200px !important;
-    }
-    .input {
-        width: 420px;
         position: relative;
-        left: 13px;
-        bottom: 15px;
-    }
-    select {
-        position: relative;
-        left: 200px;
-        bottom: 120px;
-        background: #F8F9FA;
-        border: 2px solid #F8F9FA;
-        border-radius: 8px;
-        color: black;
-        width: 280px;
+        left: 453px;
+        top: -430px;
     }
 
-    .set-value {
-        position: relative;
-        left: 271px;
-        bottom: 60px;
-        background-color: #FD377E;
-        color: white;
-        width: 454px;
+    .list-total {
+        width: 40vw;
+        max-width: 276%;
     }
 
-
-
-
-    .list {
+    .list-scroll {
         position: relative;
-        left: 312px;
-        width: 3031px;
-        height: 389px;
+        width: 500vw;
+        max-width: 140%;
+        left: 450px;
+        top: -1279px;
+        max-height: 3600%;
     }
 }
 
 
 @media (min-width:1100px) {
-    .container{
-        width: 199.237443vh;
-        height: 104vh;
-       } 
-   
-       .title-nu {
-        position: relative;
-        left: 230px;
-        width: 150px;
-   
-       }
-   
-       .title-kenzie{
-        position: relative;
-        left: 270px;
-        width: 150px;
-       }
-   
-       .logout {
-        position: relative;
-        left: 1050px;
-       }
-   
-       form {
-        position: relative;
-        left: 350px;
-        top: 33px;
-       width: 500px !important;
-       }
-   
-       .list-total {
-        position: relative;
-        left: 220px;
-        top: 20px;
-       }
-   
-       h5 {
-        position: relative;
-        bottom: 520px;
-        left: 650px;
-        width: 150px;
-       }
-   
        .title-before {
         position: relative;
-        bottom: 500px;
-        left: 630px;
-        width: 600px;
-       }
-       ul {
+        left: 600px;
+       } 
+
+       h5 {
         position: relative;
-        top: -500px;
-        left: 640px;
-        width: 560px;
-        height: 87px;
+        left: 600px;
        }
-   
-       .list-scroll{
-           max-height: 600px !important;
-           overflow-y: auto;
-           height: 800px;
-           }
-   
-       .header{
+       .list-scroll {
         position: relative;
-        left: 300px !important;
-       }
-       .input {
-           width: 420px;
-           position: relative;
-           left: 13px;
-           bottom: 15px;
-       }
-       select {
-           position: relative;
-           left: 200px;
-           bottom: 120px;
-           background: #F8F9FA;
-           border: 2px solid #F8F9FA;
-           border-radius: 8px;
-           color: black;
-           width: 280px;
-       }
-   
-       .set-value {
-           position: relative;
-           left: 379px;
-           bottom: 60px;
-           background-color: #FD377E;
-           color: white;
-           width: 454px;
-       }
-   
-   
-   
-   
-       .list {
-           position: relative;
-           left: 432px;
-           width: 3031px;
-           height: 389px;
+        left: 600px;
        }
 }
+@media (min-width:1500px)
+{
+    .title-before {
+        position: relative;
+        left: 1000px;
 
+    }
 
+    h5 {
+        position: relative;
+        left: 1000px;
+    }
 
-@media (min-width:1300px) {
-    .container{
-        width: 199.237443vh;
-        height: 104vh;
-       } 
-   
-       .title-nu {
+    .list-scroll 
+    {
         position: relative;
-        left: 230px;
-        width: 150px;
-   
-       }
-   
-       .title-kenzie{
-        position: relative;
-        left: 270px;
-        width: 150px;
-       }
-   
-       .logout {
-        position: relative;
-        left: 1050px;
-       }
-   
-       form {
-        position: relative;
-        left: 550px;
-        top: 33px;
-       width: 500px !important;
-       }
-   
-       .list-total {
-        position: relative;
-        left: 220px;
-        top: 20px;
-       }
-   
-       h5 {
-        position: relative;
-        bottom: 520px;
-        left: 850px;
-        width: 150px;
-       }
-   
-       .title-before {
-        position: relative;
-        bottom: 500px;
-        left: 730px;
-        width: 600px;
-       }
-       ul {
-        position: relative;
-        top: -500px;
-        left: 640px;
-        width: 560px;
-        height: 87px;
-       }
-   
-       .list-scroll{
-           max-height: 600px !important;
-           overflow-y: auto;
-           height: 800px;
-       }
-   
-       .header{
-        position: relative;
-        left: 500px !important;
-       }
-       .input {
-           width: 420px;
-           position: relative;
-           left: 13px;
-           bottom: 15px;
-       }
-       select {
-           position: relative;
-           left: 200px;
-           bottom: 120px;
-           background: #F8F9FA;
-           border: 2px solid #F8F9FA;
-           border-radius: 8px;
-           color: black;
-           width: 280px;
-       }
-   
-       .set-value {
-           position: relative;
-           left: 579px;
-           bottom: 60px;
-           background-color: #FD377E;
-           color: white;
-           width: 454px;
-       }
-   
-   
-   
-   
-       .list {
-           position: relative;
-           left: 632px;
-           width: 3031px;
-           height: 389px;
-       }
-}
+        left: 1000px;
+    }
 
-@media (min-width:1600px) {
-    .container{
-        width: 199.237443vh;
-        height: 104vh;
-       } 
-   
-       .title-nu {
+    .logout {
+        width: 5vw;
         position: relative;
-        left: 330px;
-        width: 150px;
-   
-       }
-   
-       .title-kenzie{
-        position: relative;
-        left: 370px;
-        width: 150px;
-       }
-   
-       .logout {
-        position: relative;
-        left: 1350px;
-       }
-   
-       form {
-        position: relative;
-        left: 750px;
-        top: 33px;
-       width: 500px !important;
-       }
-   
-       .list-total {
-        position: relative;
-        left: 220px;
-        top: 20px;
-       }
-   
-       h5 {
-        position: relative;
-        bottom: 520px;
-        left: 850px;
-        width: 150px;
-       }
-   
-       .title-before {
-        position: relative;
-        bottom: 500px;
-        left: 730px;
-        width: 600px;
-       }
-       ul {
-        position: relative;
-        top: -500px;
-        left: 640px;
-        width: 560px;
-        height: 87px;
-       }
-   
-       .list-scroll{
-           max-height: 600px !important;
-           overflow-y: auto;
-           height: 800px;
-       }
-   
-       .header{
-        left: 577px !important;
-            position: relative;
-        width: 679vw;
-        max-width: 110%;
-       }
-       .input {
-           width: 420px;
-           position: relative;
-           left: 13px;
-           bottom: 15px;
-       }
-       select {
-           position: relative;
-           left: 200px;
-           bottom: 120px;
-           background: #F8F9FA;
-           border: 2px solid #F8F9FA;
-           border-radius: 8px;
-           color: black;
-           width: 280px;
-       }
-   
-       .set-value {
-           position: relative;
-           left: 779px;
-           bottom: 60px;
-           background-color: #FD377E;
-           color: white;
-           width: 454px;
-       }
-   
-   
-   
-   
-       .list {
-           position: relative;
-           left: 915px;
-           width: 1031px;
-           height: 389px;
-       }
+        left: 1400px;
+    }
 
-
-       .resolved-background {
-        background-color: #FFFFFF;
-        height: 101vh;
-        width: 135vw;
+    .titles-dash {
+        position: relative;
+        left: 100px;
+    }
+    .form {
+        position: relative;
+        left: 105px;
+    }
+    .list-total {
+        position: relative;
+        left: 105px;
     }
 }
 
 
 @media (min-width:1800px) {
-    .container{
-        width: 199.237443vh;
-        height: 104vh;
-       } 
    
-       .title-nu {
+    h5 {
         position: relative;
-        left: 530px;
-        width: 150px;
-   
-       }
-   
-       .title-kenzie{
+        top: -470px;
+    }
+    .list-scroll {
         position: relative;
-        left: 572px;
-        width: 150px;
-       }
-   
-       .logout {
-        position: relative;
-        left: 1650px;
-       }
-   
-       form {
-        position: relative;
-        left: 930px;
-        top: 33px;
-       width: 500px !important;
-       }
-   
-       .list-total {
-        position: relative;
-        left: 3px;
-        top: 20px;
-       }
-   
-       h5 {
-        position: relative;
-        bottom: 520px;
-        left: 850px;
-        width: 150px;
-       }
-   
-       .title-before {
-        position: relative;
-        bottom: 500px;
-        left: 730px;
-        width: 600px;
-       }
-       ul {
-        position: relative;
-        top: -500px;
-        left: 640px;
-        width: 560px;
-        height: 87px;
-       }
-   
-       .list-scroll{
-           max-height: 600px !important;
-           overflow-y: auto;
-           height: 900px;
-       }
-   
-       .header{
-        left: 577px !important;
-            position: relative;
-        width: 979vw;
-        max-width: 110%;
-       }
-       .input {
-           width: 420px;
-           position: relative;
-           left: 13px;
-           bottom: 15px;
-       }
-       select {
-           position: relative;
-           left: 200px;
-           bottom: 120px;
-           background: #F8F9FA;
-           border: 2px solid #F8F9FA;
-           border-radius: 8px;
-           color: black;
-           width: 280px;
-       }
-   
-       .set-value {
-           position: relative;
-           left: 949px;
-           bottom: 60px;
-           background-color: #FD377E;
-           color: white;
-           width: 454px;
-       }
-   
-   
-   
-   
-       .list {
-           position: relative;
-           left: 1096px;
-           width: 1031px;
-           height: 389px;
-       }
-
-
-       .resolved-background {
-        background-color: #FFFFFF;
-        height: 101vh;
-        width: 135vw;
+        top: -1400px;
     }
 }
 
-
-@media (min-width: 2400px)
-{
-    .container{
-        width: 199.237443vh;
-        height: 104vh;
-       } 
-   
-       .title-nu {
-        position: relative;
-        left: 530px;
-        width: 150px;
-   
-       }
-   
-       .title-kenzie{
-        position: relative;
-        left: 572px;
-        width: 150px;
-       }
-   
-       .logout {
-        position: relative;
-        left: 1650px;
-       }
-   
-       form {
-        position: relative;
-        left: 1230px;
-        top: 33px;
-       width: 500px !important;
-       }
-   
-       .list-total {
-        position: relative;
-        left: 3px;
-        top: 20px;
-       }
-   
-       h5 {
-        position: relative;
-        bottom: 520px;
-        left: 850px;
-        width: 150px;
-       }
-   
-       .title-before {
-        position: relative;
-        bottom: 500px;
-        left: 730px;
-        width: 600px;
-       }
-       ul {
-        position: relative;
-        top: -500px;
-        left: 640px;
-        width: 560px;
-        height: 87px;
-       }
-   
-       .list-scroll{
-           max-height: 600px !important;
-           overflow-y: auto;
-           height: 1200px;
-       }
-   
-       .header{
-        left: 877px !important;
-            position: relative;
-        width: 1979vw;
-        max-width: 200%;
-       }
-       .input {
-           width: 420px;
-           position: relative;
-           left: 13px;
-           bottom: 15px;
-       }
-       select {
-           position: relative;
-           left: 200px;
-           bottom: 120px;
-           background: #F8F9FA;
-           border: 2px solid #F8F9FA;
-           border-radius: 8px;
-           color: black;
-           width: 280px;
-       }
-   
-       .set-value {
-           position: relative;
-           left: 1249px;
-           bottom: 60px;
-           background-color: #FD377E;
-           color: white;
-           width: 454px;
-       }
-   
-   
-   
-   
-       .list {
-           position: relative;
-           left: 1396px;
-           width: 1031px;
-           height: 389px;
-       }
-
-
-       .resolved-background {
-        background-color: #FFFFFF;
-        height: 101vh;
-        width: 135vw;
-    }
-  
-}

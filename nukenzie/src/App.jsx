@@ -13,7 +13,7 @@ function App() {
      <div className='homePage'>
     <div className='side'>
     <header className='Side-Top'>
-    <h4 className='title-Nu'>Nu</h4><h4 className='title-Kenzie'>Kenzie</h4>
+      <div className='titles'> <h4 className='title-Nu'>Nu</h4><h4 className='title-Kenzie'>Kenzie</h4> </div>
         <p className='description1'>Centralize o controle das suas finanças</p>
         <p className='quick'>de forma rápida e segura</p>
         <button className='Start' type='button' onClick={() => setIsPage(true)}>Iniciar</button>

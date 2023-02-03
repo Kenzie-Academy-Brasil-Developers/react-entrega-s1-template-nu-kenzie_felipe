@@ -1,74 +1,75 @@
 .title-Nu {
   color: var(--color-Nu);
-  height: 20px;
+  height: 1.25rem;
   font-size: 24px;
-  position: relative;
-  top: 75px;
-  right: -25px;
 }
 
 .title-Kenzie {
   color: var(--color-Kenzie);
   font-size: 24px;
-  position: relative;
-  top: 23px;
-  left: 70px;
+
 }
 
 .description1 {
   color: #FFFFFF;
-  position: relative;
-  right: -25px;
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
   font-weight: 800;
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  max-width: 165%;
-  width: 94vw;
+  max-width: 100%;
+ 
 }
 
 
 
 .quick {
-  color: #FFFFFF;
-  position: relative;
-  right: -23px;
+  color: rgba(255, 255, 255, 1);
+
 }
 
 .Start {
   border: 1px solid var(--color-button);
   background-color: var(--color-button);
   color: var(--color-Kenzie);
-  width: 320px;
   height: 48px;
+  width: 280px;
   border-radius: 8px;
-  position: relative;
-  right: -19px;
-  top: 8px;
 }
+
+
 
 .homePage {
-  background-color: var(--color-background);
-  height: 103vh;
+  background-color: rgba(33, 37, 41, 1);
+  height: 100vh;
   font-family: 'Inter', sans-serif;
-  width: 135vw;
   position: relative;
-  left: 10px;
   max-width: 100%;
+  overflow: hidden;
+  top: 0px;
+  max-height: 100%;
+  width: 100vw;
+}
+.titles {
+  display: flex;
+  gap: 10px;
 }
 
-
 .background-white {
-  position: relative;
-  top: 100px;
-  left: 34px;
+
+  height: 20rem;
+
 }
 
 .Side-Top {
-  width: 16.688rem;
-  margin: -95px;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ padding: 1px 1px 1px 15px;
+ max-height: 365px;
+ height: 50%;
+
 }
 
 main {
@@ -77,61 +78,121 @@ main {
 
 .side {
   display: flex;
+  gap: 20px;
+  position: relative;
+  align-items: flex-start;
   flex-direction: column;
-  align-items: center;
-  height: 0px;
+  top: 60px;
 }
 
-
-
-
-@media (min-width:1000px) {
-  .homePage {
-    width: 120.60rem;
-    height: 104vh;
-  }
+@media (max-height:667px) {
 
   .Side-Top {
     position: relative;
-    top: 183px;
-    left: -145px;
-    width: 22vw !important;
-    height: 83vh !important;
-    max-height: 100% !important;
-    max-width: 100% !important;
+    top: -55px;
+    right: 17px;
   }
-
   .background-white {
     position: relative;
-    left: 655px;
-    height: 662px;
-    top: 245px;
-  }
+    bottom:70px;
+    max-width: 100%;
 
-
-
-
-
-
-
-}
-
-
-@media (min-width: 1600px)
-{
-  .background-white {
-      position: relative;
-      left: 800px !important;
-      top: 300px !important;
   }
 }
 
 
-@media (min-width: 2400px)
-{
-  .background-white {
-      position: relative;
-      left: 1000px !important;
-      top: 200px !important;
+@media (min-width:700px) {
+  .side {
+    display: flex;
+    flex-direction: row;
   }
+  .homePage{
+    position: relative;
+    top: 0px;
+    max-width: 100%;
+    width: 100vw;
+    max-height: 100%;
+    height: 100vh;
+  }
+
+  .Side-Top {
+    position:relative;
+    left: 40px;
+  }
+  .Start {
+  width: 200px;
+  }
+
+  .background-white {
+    height: 27rem;
+  }
+  .description1 {
+    max-width: 80%;
+  }
+  .side {
+    position: relative;
+    top: 260px;
+  }
+}
+@media (min-width:1300px) {
+  .side {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 130px;
+  }
+  .homePage{
+    position: relative;
+    top: 0px;
+    max-width: 100%;
+    width: 100vw;
+    max-height: 100%;
+    height: 100vh;
+  }
+
+  .Side-Top {
+    position:relative;
+    left: 150px;
+    top: 100px;
+  }
+
+  .background-white {
+    height: 35rem;
+    position: relative;
+    right: 8px;
+
+    
+  }
+
+}
+
+
+@media (min-width:1600px) {
+  .side {
+    display: flex;
+    flex-direction: row;
+  }
+  .homePage{
+    position: relative;
+    top: 0px;
+    max-width: 100%;
+    width: 100vw;
+    max-height: 100%;
+    height: 100vh;
+  }
+
+  .Side-Top {
+    position:relative;
+    left: 350px;
+    top: 100px;
+  }
+
+  .background-white {
+    height: 35rem;
+    position: relative;
+    right: -340px;
+
+    
+  }
+
 }
