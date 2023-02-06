@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './dashboard.css'
 import '/src/global.css'
 import App from '../App'
-
+import Trash from '/src/assets/trash.svg'
 
 
 const Dash = () => {
@@ -92,7 +92,7 @@ const Dash = () => {
                                                     <h4 className='click-title'>{item.Text}</h4>
                                                     <p className='click-type'>{item.type}</p>
                                                     <p className='click-money'>R$ {item.value}</p>
-                                                    <button type='button' className='trash-btn' onClick={() => handleDelete(index)}><img src='/src/assets/trash.svg' className='trash'></img>
+                                                    <button type='button' className='trash-btn' onClick={() => handleDelete(index)}><img src={Trash} className='trash'></img>
                                                     </button>
 
                                                 </div>

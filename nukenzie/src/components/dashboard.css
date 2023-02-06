@@ -5,6 +5,7 @@
     max-width: 100%;
     max-height: 100%;
     background-color: white;
+    min-width: 320px;
 }
 
 .title-nu {
@@ -23,8 +24,8 @@ font-family: 'Nunito', sans-serif;
     flex-direction: row;
     max-width: 100%;
     max-height: 100%;
-    width: 30vw;
-    height: 9vh;
+    width: 150px;
+    height: 50px;
 }
 
 
@@ -41,12 +42,12 @@ font-family: 'Nunito', sans-serif;
 
 .logout {
     position: relative;
-    left: 240px;
-    bottom: 50px;
+    left: 210px;
+    bottom: 40px;
     max-width: 30%;
     max-height: 100%;
-    width: 25vw;
-    height: 4vh;
+    width: 150px;
+    height: 40px;
     background-color: rgba(233, 236, 239, 1);
     font-family: 'Nunito';
     font-size: 14px;
@@ -58,10 +59,10 @@ border-radius: 8px;
 .header {
     background: #F8F9FA;
 box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
-    height: 100vh;
-    max-height: 7%;
+    height: 60px;
+    max-height: 100%;
     max-width: 100%;
-    width: 100vw;
+    width: 1920px;
 
 }
 
@@ -74,14 +75,15 @@ box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
     font-size: 12px;
     font-family: 'Inter';
     font-style: normal;
+    
 }
 
 
 form {
     max-width: 100%;
     max-height: 100%;
-    width: 93vw;
-    height: 35vh;
+width: 310px;
+    height: 300px;
     border: 1px solid #E9ECEF;
     position: relative;
     top: 15px;
@@ -98,8 +100,8 @@ form {
     border: 2px solid #F8F9FA;
     max-width: 100%;
     max-height: 100%;
-    height: 7vh;
-width: 82vw;
+    height: 60px;
+min-width: 270px;
 border-radius: 8px;
 padding: 0px 16px 0px 16px;
 background: #F8F9FA;
@@ -136,8 +138,8 @@ color: black;
     border: 2px solid #F8F9FA;
     max-width: 80%;
     max-height: 100%;
-    height: 5vh;
-width: 50vw;
+    height: 30px;
+width: 150px;
 border-radius: 8px;
 padding: 0px 16px 0px 16px;
 justify-content: space-between;
@@ -151,7 +153,7 @@ color: black;
     color: black;
     position: relative;
     left: 120px;
-    top: 18px;
+    top: 25px;
   
    
     width: 30px;
@@ -178,8 +180,8 @@ select {
     color: black;
     max-width: 100%;
     max-height: 100%;
-    width: 30vw;
-    height: 3vh;
+    width: 100px;
+    height: 30px;
 }
 
 option {
@@ -193,10 +195,9 @@ option {
     color: white;
     border: 2px solid #FD377E;
     border-radius: 8px;
-    max-width: 69%;
     max-height: 100%;
-    width: 100vw;
-    height: 5vh;
+    width: 270px;
+    height:50px;
     position: relative;
     bottom: 70px;
     left: 25px;
@@ -210,13 +211,13 @@ option {
 
 .list-total {
     border: 2px solid #E9ECEF;
-    width: 93vw;
+    width: 320px;
     position: relative;
     left: 5px;
     border: 1px solid #E9ECEF;
     border-radius: 4px;
     height: 10vh;
-    max-width: 272%;
+    max-width: 95%;
     
     max-height: 100%;
 }
@@ -344,9 +345,11 @@ ul {
     top: 40px;
     left: 20px;
     overflow-y: scroll;
-    max-height: 264px;
-    max-width: 249%;
-    width: 104vw;
+    max-height: 100%;
+    max-width: 100%;
+    width: 300px;
+    height: 800px;
+    min-height: 300px;
  }
 
 
@@ -430,14 +433,212 @@ ul {
 
     .list-scroll {
         position: relative;
-        width: 500vw;
-        max-width: 140%;
+        width: 367px;
+        max-width: 100%;
         left: 450px;
-        top: -1279px;
-        max-height: 3600%;
+        top: -1268px;
+        min-height: 683px;
+        max-height: 100%;
     }
 }
+@media (min-height:600px) {
+    .input {
+        max-width: 100%;
+        width: 35vw;
+    }
+    select {
+        max-width: 100%;
+        width: 15vw;
+    }
+    .input-value {
+        max-width: 100%;
+        width: 15vw;
+    }
+    .set-value {
+        width: 89vw;
+        max-width: 34%;
+    }
 
+    .logout {
+        width: 10vw;
+        position: relative;
+        left: 800px;
+    }
+    form {
+        max-width: 100%;
+        max-height: 100%;
+        width: 40vw;
+    }
+
+    .title-before {
+        position: relative;
+        left: 450px;
+        top: -400px;
+        width: 50vw;
+        max-width: 150%;
+
+    }
+
+    .resolved-response {
+        max-width: 100%;
+        max-height: 10%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h5 {
+        position: relative;
+        left: 453px;
+        top: -430px;
+    }
+
+    .list-total {
+        width: 40vw;
+        max-width: 276%;
+    }
+
+    .list-scroll {
+        position: relative;
+        width: 367px;
+        max-width: 100%;
+        left: 450px;
+        top: -968px;
+        min-height: 683px;
+        max-height: 100%;
+    }
+}
+@media (min-height:800px) {
+    .input {
+        max-width: 100%;
+        width: 35vw;
+    }
+    select {
+        max-width: 100%;
+        width: 15vw;
+    }
+    .input-value {
+        max-width: 100%;
+        width: 15vw;
+    }
+    .set-value {
+        width: 89vw;
+        max-width: 34%;
+    }
+
+    .logout {
+        width: 10vw;
+        position: relative;
+        left: 800px;
+    }
+    form {
+        max-width: 100%;
+        max-height: 100%;
+        width: 40vw;
+    }
+
+    .title-before {
+        position: relative;
+        left: 450px;
+        top: -400px;
+        width: 50vw;
+        max-width: 150%;
+
+    }
+
+    .resolved-response {
+        max-width: 100%;
+        max-height: 10%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h5 {
+        position: relative;
+        left: 453px;
+        top: -430px;
+    }
+
+    .list-total {
+        width: 40vw;
+        max-width: 276%;
+    }
+
+    .list-scroll {
+        position: relative;
+        width: 367px;
+        max-width: 100%;
+        left: 450px;
+        top: -1198px;
+        min-height: 683px;
+        max-height: 100%;
+    }
+}
+@media (min-height:1300px) {
+    .input {
+        max-width: 100%;
+        width: 35vw;
+    }
+    select {
+        max-width: 100%;
+        width: 15vw;
+    }
+    .input-value {
+        max-width: 100%;
+        width: 15vw;
+    }
+    .set-value {
+        width: 89vw;
+        max-width: 34%;
+    }
+
+    .logout {
+        width: 10vw;
+        position: relative;
+        left: 800px;
+    }
+    form {
+        max-width: 100%;
+        max-height: 100%;
+        width: 40vw;
+    }
+
+    .title-before {
+        position: relative;
+        left: 450px;
+        top: -400px;
+        width: 50vw;
+        max-width: 150%;
+
+    }
+
+    .resolved-response {
+        max-width: 100%;
+        max-height: 10%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h5 {
+        position: relative;
+        left: 453px;
+        top: -430px;
+    }
+
+    .list-total {
+        width: 40vw;
+        max-width: 276%;
+    }
+
+    .list-scroll {
+        position: relative;
+        width: 367px;
+        max-width: 100%;
+        left: 450px;
+        top: -1768px;
+        min-height: 683px;
+        max-height: 100%;
+    }
+}
 
 @media (min-width:1100px) {
        .title-before {
@@ -506,11 +707,13 @@ ul {
    
     h5 {
         position: relative;
-        top: -470px;
+        top: -420px;
     }
     .list-scroll {
         position: relative;
-        top: -1400px;
+        top: -1300px;
+        left: 1000px;
+       
     }
     .input-value {
         max-width: 20%;
