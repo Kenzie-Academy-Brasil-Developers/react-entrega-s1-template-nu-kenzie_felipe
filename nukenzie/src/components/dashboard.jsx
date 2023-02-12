@@ -37,31 +37,48 @@ const Dash = () => {
 
                     <div className='container'>
                         <header className='header'>
+                            <div className='display-flex'>
+
                             <div className='titles-dash'>  <h1 className='title-nu'>Nu</h1><h1 className='title-kenzie'>Kenzie</h1> </div>
 
-                            <button type='button' className='logout' onClick={() => setIsPage(true)}>Inicio</button>
+<button type='button' className='logout' onClick={() => setIsPage(true)}>Inicio</button>
+                            </div>
+                            
                         </header>
                         <main>
+                            <div className='Two-sides'>
                             <div className="form">
                                 <form>
+                                    <div className='form-top'>
                                     <p className='description'>Descrição</p>
                                     <input placeholder="Digite aqui sua descrição" className='input' value={Text} onChange={(e) => setText(e.target.value)} />
                                     <p className='ex'>Ex: Compra de roupas</p>
+                                    </div>
+                                  
+                                    <div className='form-body'>
                                     <p className='value'>Valor</p>
                                     <input placeholder="1" className='input-value' type='number' value={value} onChange={(e) => setValue(e.target.value)} />
-                                    <p className='RS'>R$</p>
+                                    <p className='RS'>R$</p>    
+
+                                    </div>
+                                    
 
 
+                                    <div className='form-footer'>
                                     <p className='type-name'>Tipo de valor</p>
                                     <select value={type} onChange={(e) => setType(e.target.value)}>
                                         <option>Selecione</option>
                                         <option>Entrada</option>
                                         <option>Despesa</option>
                                     </select>
+                                    </div>
+                                    <button type='button' className='set-value' onClick={() => setList([...list, { Text, value, type }])}>Inserir valor</button>
                                 </form>
 
-                                <button type='button' className='set-value' onClick={() => setList([...list, { Text, value, type }])}>Inserir valor</button>
+                                
                             </div>
+                            
+                 
 
                             <div className='list'>
                                 <div className='list-total'>
@@ -69,20 +86,12 @@ const Dash = () => {
                                     <p className='money'>$ {totalValue}</p>
                                     <p className='Ref'>O valor referente ao saldo</p>
                                 </div>
+                                </div>
                                 <aside className='resolved-response'>        
                                        <h5>Resumo financeiro</h5>
 
                                     <h1 className={`title-before ${list.length > 0 ? 'hidden' : ''}`}>Você ainda não possui nenhum lançamento</h1>
                                 </aside>
-
-
-
-                                {/* <h1 className='title-before hidden'>Você ainda não possui nenhum lançamento</h1> */}
-
-
-
-
-
 
                                 <div className='list-click'>
                                     <ul className='list-scroll'>
